@@ -1,2 +1,1 @@
-# expense-tracker
-Expense tracker in JS
+<h1>http://pawelwebsite.cba.pl/expense-tracker/</h1>
