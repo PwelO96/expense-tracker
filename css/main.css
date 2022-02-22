@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px 15%;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+.container .add_expense {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .add_expense h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.container .add_expense h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: green;
+  padding: 10px 0;
+}
+
+.container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .form .form_name {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.container .form .form_name input {
+  width: 90%;
+  border: 1px solid #cac7c7;
+  border-radius: 3px;
+  outline: none;
+  padding: 7px 20px;
+  height: 35px;
+}
+
+.container .form .form_date_amount {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.container .form .form_date_amount input {
+  width: 42.5%;
+  border: 1px solid #cac7c7;
+  border-radius: 3px;
+  outline: none;
+  padding: 7px 20px;
+  height: 35px;
+  margin-left: 5px;
+}
+
+.container .expanse_table {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.container .expanse_table table {
+  font-size: 1rem;
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 10px 10px;
+  width: 95%;
+}
+
+.container .expanse_table table tr td {
+  border: 1px solid #cac7c7;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+.container .expanse_table table .first_tr {
+  font-weight: 600;
+}
+
+.container .expanse_table table .second_tr {
+  background-color: #f0ecec;
+}
+
+.container .expanse_table table .noexpenses_tr {
+  display: table-row;
+}
+
+.container .expanse_table table .nodisplayexpenses_tr {
+  display: none;
+}
+
+.container .add_btn,
+.container .delete_btn,
+.container .deleteall_btn {
+  padding: 10px 20px;
+  color: #ffffff;
+  background: #008000;
+  border: 0;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  cursor: pointer;
+}
+
+.container .add_btn:hover,
+.container .delete_btn:hover,
+.container .deleteall_btn:hover {
+  background: #029902;
+}
+/*# sourceMappingURL=main.css.map */

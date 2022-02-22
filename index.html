@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="add_expense">
+            <h1>Expense Tracker</h1>
+            <h2>Add new item:</h2>
+            <form class="form">
+                <div class="form_name">
+                    <label for="name">Name:</label> <input type="text" class="expensename_input" placeholder="Where was the expense made?">
+                </div>
+                <div class="form_date_amount">
+                    <label for="date">Date:</label><input type="date" placeholder="dd/mm/rrrr" class="date_input">
+                    <label for="amount">Amount:</label><input type="text" class="amount_input">
+                </div>
+            </form>
+            <div class="buttons">
+                <button class="add_btn">Add expense</button>
+            </div>
+        </div>
+        <div class="expanse_table">
+            <table>
+                <tr class="first_tr">
+                    <td>Name</td>
+                    <td>Date</td>
+                    <td>Amount</td>
+                    <td>Remove</td>
+                </tr>
+                <tr class="second_tr trre">
+                    <td colspan="4">No expenses yet</td>
+                </tr>
+            </table>
+            <table>
+                <tr class="second_tr ">
+                    <td colspan="4" class="expenses_sum">Your sum of expenses: 0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
